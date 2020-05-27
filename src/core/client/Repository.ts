@@ -1,5 +1,5 @@
 import { PoolConnection } from "mariadb";
-import { ClientModel } from "./Mode";
+import { ClientModel } from "./Model";
 import { createPool } from "../../adapter/mariadb/pool";
 import { HttpResponseError } from "../HttpResponseError";
 
