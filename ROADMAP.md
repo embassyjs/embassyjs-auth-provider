@@ -3,7 +3,7 @@
 
 0.1.0
     Client 관리
-    Kwoned-Configuration 공개
+    Known-Configuration 공개
     Sign Key 공개
 
 0.2.0
