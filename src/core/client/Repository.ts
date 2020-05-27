@@ -15,7 +15,7 @@ class ClientRepository {
     }
 
     selectClient(id: string): Promise<ClientModel> {
-        const query = `SELECT secret, redirect, title, consent FROM clients WHERE id = ${id}`;
+        const query = `SELECT secret, redirect, title, consent FROM clients WHERE id = '${id}'`;
 
         return createPool()
             .then(nextConnection => {
