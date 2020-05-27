@@ -39,5 +39,6 @@
             "server": "ec2-52-79-228-151.ap-northeast-2.compute.amazonaws.com",
             "username": "developer"
         }
-    ]
+    ],
+    "javascript.preferences.importModuleSpecifier": "relative"
 }
