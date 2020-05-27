@@ -1,0 +1,1 @@
+# embassyjs-auth-provider
